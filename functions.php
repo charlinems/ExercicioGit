@@ -11,11 +11,11 @@
 	
 	
 	function outraFuncao($nome){
-		echo "Olá, {nome}'.Eu sou uma funcao!".PHP_EOL;
+		echo "Olá,{$nome}!Eu sou uma funcao!".PHP_EOL;
 
 	}
 
 	function novaFuncao($msg){
 		echo "Sou uma função que recebe:{$msg} ".PHP_EOL;
-
+	}
 ?>
